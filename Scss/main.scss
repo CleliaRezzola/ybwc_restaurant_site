@@ -1,0 +1,11 @@
+@import "mixins";
+@import "variables";
+@import "colors";
+@import "headings";
+@import "content";
+@import "footer";
+
+body {
+	margin: 0 auto;
+	background-color: $gray;
+}

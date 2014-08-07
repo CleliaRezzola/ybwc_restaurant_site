@@ -1,0 +1,38 @@
+* {
+	font-family: Josefin sans;
+	text-align: center;
+	color: $dark_gray;
+}
+
+
+h1 {
+	font-family: Amatic sc;
+	font-size: 100px;
+	color: $mustard;
+}
+
+h2 {
+	font-family: Bad Script;
+	font-size: 30px;
+}
+
+h4 {
+	font-family: Josefin sans;
+	font-size: 16px;
+}
+
+header {
+	background-color: $blue_gray;
+	height: 150px;
+	border-bottom: 5px solid $mustard;
+	margin-top: 10px;
+}
+
+.logo {
+	padding-top: 10px;
+}
+
+.logo_info {
+	padding-top: 50px;
+	color: $black;
+}

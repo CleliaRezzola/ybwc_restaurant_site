@@ -1,0 +1,61 @@
+/* line 1, ../Scss/_headings.scss */
+* {
+  font-family: Josefin sans;
+  text-align: center;
+  color: #4e525d;
+}
+
+/* line 8, ../Scss/_headings.scss */
+h1 {
+  font-family: Amatic sc;
+  font-size: 100px;
+  color: #f5ab0e;
+}
+
+/* line 14, ../Scss/_headings.scss */
+h2 {
+  font-family: Bad Script;
+  font-size: 30px;
+}
+
+/* line 19, ../Scss/_headings.scss */
+h4 {
+  font-family: Josefin sans;
+  font-size: 16px;
+}
+
+/* line 24, ../Scss/_headings.scss */
+header {
+  background-color: #687389;
+  height: 150px;
+  border-bottom: 5px solid #f5ab0e;
+  margin-top: 10px;
+}
+
+/* line 31, ../Scss/_headings.scss */
+.logo {
+  padding-top: 10px;
+}
+
+/* line 35, ../Scss/_headings.scss */
+.logo_info {
+  padding-top: 50px;
+  color: black;
+}
+
+/* line 1, ../Scss/_content.scss */
+.section {
+  height: 220px;
+  margin-top: 40px;
+}
+
+/* line 1, ../Scss/_footer.scss */
+footer {
+  margin-top: 50px;
+}
+
+/* line 8, ../Scss/main.scss */
+body {
+  margin: 0 auto;
+  background-color: #eceaed;
+}
