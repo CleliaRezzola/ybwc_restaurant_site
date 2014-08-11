@@ -6,26 +6,32 @@
   color: #4e525d;
 }
 
-/* line 9, ../Scss/_headings.scss */
+/* line 8, ../Scss/_headings.scss */
 h1 {
   font-family: Amatic sc;
   font-size: 30px;
   color: #f5ab0e;
 }
 
-/* line 15, ../Scss/_headings.scss */
+/* line 14, ../Scss/_headings.scss */
 h2 {
   font-family: Bad Script;
   font-size: 30px;
 }
 
-/* line 20, ../Scss/_headings.scss */
+/* line 19, ../Scss/_headings.scss */
 h4 {
   font-family: Josefin sans;
   font-size: 16px;
 }
 
-/* line 25, ../Scss/_headings.scss */
+/* line 24, ../Scss/_headings.scss */
+h5 {
+  font-family: Josefin sans;
+  font-size: 14px;
+}
+
+/* line 29, ../Scss/_headings.scss */
 header {
   background-color: #687389;
   height: 150px;
@@ -33,14 +39,14 @@ header {
   margin-top: 10px;
 }
 
-/* line 32, ../Scss/_headings.scss */
+/* line 36, ../Scss/_headings.scss */
 .logo {
   padding-top: 10px;
 }
 
-/* line 36, ../Scss/_headings.scss */
+/* line 40, ../Scss/_headings.scss */
 .logo_info {
-  padding-top: 50px;
+  padding-top: 33px;
   color: black;
 }
 
@@ -51,38 +57,83 @@ header {
 }
 
 /* line 6, ../Scss/_content.scss */
+.carousel {
+  margin-top: 40px;
+  width: 100%;
+}
+
+/* line 11, ../Scss/_content.scss */
+.item {
+  margin: 0 auto;
+}
+
+/* line 15, ../Scss/_content.scss */
 li {
   list-style: none;
 }
 
-/* line 10, ../Scss/_content.scss */
+@media screen and (min-width: 960px) {
+  /* line 19, ../Scss/_content.scss */
+  .large_list {
+    width: 150%;
+    float: left;
+  }
+}
+
+/* line 27, ../Scss/_content.scss */
 a {
   text-decoration: none;
   text-align: center;
+  color: #4e525d;
 }
 
-/* line 18, ../Scss/_content.scss */
+/* line 38, ../Scss/_content.scss */
 .aperitivi,
 .drinks,
 .main,
-.about {
+.about,
+.dessert,
+.pictures {
   display: none;
   height: 220px;
   margin-top: 40px;
   font-size: 22px;
 }
 
-/* line 25, ../Scss/_content.scss */
-.about {
-  margin-left: 15px;
+/* line 45, ../Scss/_content.scss */
+#map {
+  display: none;
+  height: 220px;
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+/* line 52, ../Scss/_content.scss */
+#time {
+  display: none;
+  margin-top: -20px;
+  margin-left: -30px;
+}
+
+/* line 61, ../Scss/_content.scss */
+#sparkling,
+#champagne,
+#white,
+#red {
+  display: none;
+}
+
+/* line 65, ../Scss/_content.scss */
+.hours {
+  margin-left: -40px;
 }
 
 /* line 1, ../Scss/_footer.scss */
 footer {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
-/* line 8, ../Scss/main.scss */
+/* line 7, ../Scss/main.scss */
 body {
   margin: 0 auto;
   background-color: #eceaed;

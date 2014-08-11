@@ -3,25 +3,65 @@
 	margin-top: 40px;
 }
 
+.carousel {
+	margin-top:40px;
+	width:100%;
+}
+
+.item {
+	margin: 0 auto;
+}
+
 li {
 	list-style: none;
+}
+
+.large_list {
+
+	@include respond($desktop) {
+		width: 150%;
+		float: left;
+	}
 }
 
 a {
 	text-decoration: none;
 	text-align: center;
+	color: $dark_gray;
 }
 
 .aperitivi,
 .drinks,
 .main,
-.about {
+.about,
+.dessert,
+.pictures {
 	display: none;
 	height: 220px;
 	margin-top: 40px;
 	font-size: 22px;
 }
 
-.about {
-	margin-left: 15px;
+#map {
+	display: none;
+	height: 220px;
+	margin-top: 40px;
+	font-size: 22px;
+}
+
+#time {
+	display: none;
+	margin-top: -20px;
+	margin-left: -30px;
+}
+
+#sparkling,
+#champagne,
+#white,
+#red {
+	display: none;
+}
+
+.hours {
+	margin-left: -40px;
 }

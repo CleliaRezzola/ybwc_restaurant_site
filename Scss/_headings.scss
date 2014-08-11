@@ -5,7 +5,6 @@
 	color: $dark_gray;
 }
 
-
 h1 {
 	font-family: Amatic sc;
 	font-size: 30px;
@@ -22,6 +21,11 @@ h4 {
 	font-size: 16px;
 }
 
+h5 {
+	font-family: Josefin sans;
+	font-size: 14px;
+}
+
 header {
 	background-color: $blue_gray;
 	height: 150px;
@@ -34,6 +38,6 @@ header {
 }
 
 .logo_info {
-	padding-top: 50px;
+	padding-top: 33px;
 	color: $black;
 }
