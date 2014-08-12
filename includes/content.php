@@ -1,38 +1,4 @@
 <div class="container">
-	<div class="row">
-		<div class="col-xs-12 col-md-6 col-md-offset-3">
-			<div id="homeCarousel" class="carousel" data-ride="carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#homeCarousel" data-slide-to="1"></li>
-					<li data-target="#homeCarousel" data-slide-to="2"></li>
-					<li data-target="#homeCarousel" data-slide-to="3"></li>
-					<li data-target="#homeCarousel" data-slide-to="4"></li>
-					<li data-target="#homeCarousel" data-slide-to="5"></li>
-					<li data-target="#homeCarousel" data-slide-to="6"></li>
-					<li data-target="#homeCarousel" data-slide-to="7"></li>
-					<li data-target="#homeCarousel" data-slide-to="8"></li>
-					<li data-target="#homeCarousel" data-slide-to="9"></li>
-					<li data-target="#homeCarousel" data-slide-to="10"></li>
-					<li data-target="#homeCarousel" data-slide-to="11"></li>
-				</ol>
-		
-			<div class="carousel-inner">
-				<div class="item active"><img src="images/gallery/Screen_Shot_10" alt=""></div>
-				<div class="item"><img src="images/gallery/Screen_Shot_11" alt=""></div>
-				<div class="item"><img src="images/gallery/Screen_Shot_12" alt=""></div>
-				<div class="item"><img src="images/gallery/Screen_Shot_4" alt=""></div>
-				<div class="item"><img src="images/gallery/Screen_Shot_5" alt=""></div>
-				<div class="item"><img src="images/gallery/Screen_Shot_6" alt=""></div>
-				<div class="item"><img src="images/gallery/Screen_Shot_7" alt=""></div>
-				<div class="item"><img src="images/gallery/Screen_Shot_8" alt=""></div>
-				<div class="item"><img src="images/gallery/Screen_Shot_9" alt=""></div>
-				<div class="item"><img src="images/gallery/Screen_Shot_1" alt=""></div>
-				<div class="item"><img src="images/gallery/Screen_Shot_2" alt=""></div>
-				<div class="item"><img src="images/gallery/Screen_Shot_3" alt=""></div>					
-			</div>
-		</div>
-	</div>
 
 	<div class="row">
 
@@ -120,7 +86,7 @@
 		</a>
 
 		<div class="col-xs-12 col-md-4 col-md-offset-1 about">
-			<p><h2>Opening Hours</h2></p>
+			<a href="#" class="opening_hours"><h2>Opening Hours</h2></a>
 			<ul class="hours">
 				<li>Tue-Thu: 12:00 - 22:00</li>
 				<li>Fri-Sun: 12:00 - 23:30</li>
@@ -133,7 +99,7 @@
 		<div class="col-xs-12 col-md-3 col-md-offset-2" id="map">
 			<img src="images/map.png" class="img-responsive"/>
 			<a href="https://www.google.co.nz/maps/place/32+Taranaki+St,+Te+Aro,+Wellington+6011/@-41.2915557,174.7790936,17z/data=!3m1!4b1!4m2!3m1!1s0x6d38afd0c8c59e9f:0xb28c61fa06e40806">Take me to Google Maps</a>
-			<a href="#" class="back__about"><h1><</h1></a>		
+			<a href="#" class="back__about"><h1><</h1></a>
 		</div>
 	</div>
 

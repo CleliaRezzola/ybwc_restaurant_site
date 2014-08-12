@@ -38,16 +38,54 @@ header {
   border-bottom: 5px solid #f5ab0e;
   margin-top: 10px;
 }
+@media screen and (min-width: 960px) {
+  /* line 29, ../Scss/_headings.scss */
+  header {
+    height: 230px;
+  }
+}
 
-/* line 36, ../Scss/_headings.scss */
+/* line 39, ../Scss/_headings.scss */
+.moving_carousel {
+  display: none;
+}
+@media screen and (min-width: 960px) {
+  /* line 39, ../Scss/_headings.scss */
+  .moving_carousel {
+    display: inline;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  /* line 47, ../Scss/_headings.scss */
+  .carousel-inner {
+    position: absolute;
+    margin-left: 200px;
+  }
+}
+
+/* line 54, ../Scss/_headings.scss */
 .logo {
   padding-top: 10px;
 }
+@media screen and (min-width: 960px) {
+  /* line 54, ../Scss/_headings.scss */
+  .logo {
+    padding-top: 95px;
+  }
+}
 
-/* line 40, ../Scss/_headings.scss */
+/* line 61, ../Scss/_headings.scss */
 .logo_info {
-  padding-top: 33px;
+  padding-top: 8px;
   color: black;
+}
+@media screen and (min-width: 960px) {
+  /* line 61, ../Scss/_headings.scss */
+  .logo_info {
+    padding-top: 95px;
+  }
 }
 
 /* line 1, ../Scss/_content.scss */
@@ -57,37 +95,26 @@ header {
 }
 
 /* line 6, ../Scss/_content.scss */
-.carousel {
-  margin-top: 40px;
-  width: 100%;
-}
-
-/* line 11, ../Scss/_content.scss */
-.item {
-  margin: 0 auto;
-}
-
-/* line 15, ../Scss/_content.scss */
 li {
   list-style: none;
 }
 
 @media screen and (min-width: 960px) {
-  /* line 19, ../Scss/_content.scss */
+  /* line 10, ../Scss/_content.scss */
   .large_list {
     width: 150%;
     float: left;
   }
 }
 
-/* line 27, ../Scss/_content.scss */
+/* line 17, ../Scss/_content.scss */
 a {
   text-decoration: none;
   text-align: center;
   color: #4e525d;
 }
 
-/* line 38, ../Scss/_content.scss */
+/* line 28, ../Scss/_content.scss */
 .aperitivi,
 .drinks,
 .main,
@@ -100,7 +127,7 @@ a {
   font-size: 22px;
 }
 
-/* line 45, ../Scss/_content.scss */
+/* line 35, ../Scss/_content.scss */
 #map {
   display: none;
   height: 220px;
@@ -108,14 +135,14 @@ a {
   font-size: 22px;
 }
 
-/* line 52, ../Scss/_content.scss */
+/* line 42, ../Scss/_content.scss */
 #time {
   display: none;
   margin-top: -20px;
   margin-left: -30px;
 }
 
-/* line 61, ../Scss/_content.scss */
+/* line 51, ../Scss/_content.scss */
 #sparkling,
 #champagne,
 #white,
@@ -123,9 +150,10 @@ a {
   display: none;
 }
 
-/* line 65, ../Scss/_content.scss */
+/* line 55, ../Scss/_content.scss */
 .hours {
   margin-left: -40px;
+  display: none;
 }
 
 /* line 1, ../Scss/_footer.scss */

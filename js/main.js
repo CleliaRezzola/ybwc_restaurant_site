@@ -1,22 +1,5 @@
 $(document).ready(function(){
 
-		// $('a.first').on('click',function(e){
-		// 	e.preventDefault();
-			
-		// 	var aa = $(this);
-
-		// 	console.log(aa);
-			
-
-		// 	$('div:first-child').hide();
-		// 	$('div:last-child').show();
-		// });
-	$(".fancybox").fancybox({
-		openEffect	: 'none',
-		closeEffect	: 'none'
-	});
-
-
 	$('.first').on('click', function(e){
 		e.preventDefault();
 		$('.first').hide();
@@ -39,6 +22,11 @@ $(document).ready(function(){
 		e.preventDefault();
 		$('.fourth').hide();
 		$('.about').show();
+	});
+
+	$('.opening_hours').on('click', function(e){
+		e.preventDefault();
+		$('.hours').fadeIn();
 	});
 
 	$('.map').on('click', function(e){
@@ -95,7 +83,5 @@ $(document).ready(function(){
 		$('.about').hide();
 		$('.fourth').show();
 	});
-
-
-
+	
 });

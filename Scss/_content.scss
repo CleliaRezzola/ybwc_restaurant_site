@@ -3,21 +3,11 @@
 	margin-top: 40px;
 }
 
-.carousel {
-	margin-top:40px;
-	width:100%;
-}
-
-.item {
-	margin: 0 auto;
-}
-
 li {
 	list-style: none;
 }
 
 .large_list {
-
 	@include respond($desktop) {
 		width: 150%;
 		float: left;
@@ -64,4 +54,5 @@ a {
 
 .hours {
 	margin-left: -40px;
+	display: none;
 }

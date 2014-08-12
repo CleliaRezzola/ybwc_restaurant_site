@@ -31,13 +31,37 @@ header {
 	height: 150px;
 	border-bottom: 5px solid $mustard;
 	margin-top: 10px;
+	@include respond($desktop){
+		height:230px;
+	}
+}
+
+.moving_carousel {
+	display: none;
+	@include respond($desktop) {
+		display: inline;
+		margin-top: 40px;
+	}
+}
+
+.carousel-inner {
+	@include respond($desktop) {
+		position: absolute;
+		margin-left: 200px;
+	}
 }
 
 .logo {
 	padding-top: 10px;
+	@include respond($desktop) {
+		padding-top: 95px;
+	}
 }
 
 .logo_info {
-	padding-top: 33px;
+	padding-top: 8px;
 	color: $black;
+	@include respond($desktop) {
+		padding-top: 95px;
+	}
 }
